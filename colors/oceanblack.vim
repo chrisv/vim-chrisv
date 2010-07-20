@@ -30,9 +30,10 @@ highlight ErrorMsg      guifg=LightYellow  guibg=FireBrick
 "highlight FillColumn    gui=NONE guifg=black guibg=grey60
 highlight VertSplit    gui=NONE guifg=black guibg=grey60
 highlight Folded        gui=bold guibg=#305060 guifg=#b0d0e0
-highlight FoldColumn        gui=bold guibg=#305060 guifg=#b0d0e0
+highlight FoldColumn        gui=None guibg=#305060 guifg=#b0d0e0
 highlight IncSearch gui=reverse guifg=fg guibg=bg
-highlight LineNr        gui=bold guibg=grey6 guifg=LightSkyBlue3
+"highlight LineNr        guibg=grey6 guifg=LightSkyBlue3
+highlight LineNr        guibg=grey6 guifg=#777777
 highlight ModeMsg       guibg=DarkGreen guifg=LightGreen
 highlight MoreMsg       gui=bold  guifg=SeaGreen4 guibg=bg
 if version < 600
@@ -58,13 +59,15 @@ highlight WildMenu      gui=bold guibg=Chartreuse guifg=Black
 """" Syntax Colors
 
 "highlight Comment       gui=reverse guifg=#507080
-highlight Comment       gui=None guifg=#507080
+"highlight Comment       gui=None guifg=#507080
+highlight Comment       gui=None guifg=#7C7268
 
 highlight Constant      guifg=cyan3 guibg=bg
 "hi String gui=None guifg=turquoise2 guibg=bg
 hi String gui=None guifg=#80a0ff guibg=bg
     "hi Character gui=None guifg=Cyan guibg=bg
-    highlight Number gui=None guifg=Cyan guibg=bg
+    "highlight Number gui=None guifg=Cyan guibg=bg
+    highlight Number gui=None guifg=Cyan guibg=black
     highlight Boolean gui=bold guifg=Cyan guibg=bg
     "hi Float gui=None guifg=Cyan guibg=bg
 
@@ -76,8 +79,8 @@ highlight Statement     gui=NONE guifg=LightGreen
     highlight Repeat gui=None guifg=SeaGreen2 guibg=bg
     "hi Label gui=None guifg=LightGreen guibg=bg
     highlight Operator gui=None guifg=Chartreuse guibg=bg
-    highlight Keyword gui=bold guifg=LightGreen guibg=bg
-    highlight Exception gui=bold guifg=LightGreen guibg=bg
+    highlight Keyword gui=None guifg=LightGreen guibg=bg
+    highlight Exception gui=None guifg=LightGreen guibg=bg
 
 highlight PreProc       guifg=SkyBlue1
 hi Include gui=None guifg=LightSteelBlue3 guibg=bg
