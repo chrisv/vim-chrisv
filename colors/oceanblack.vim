@@ -3,7 +3,7 @@
 " http://www.vim.org/scripts/script.php?script_id=603
 " http://github.com/chrisv/vim-chrisv
 " Last Change: 2010-07-20
-" Version: 0.3
+" Version: 0.3-pre
 " based on Tom Regner's oceanblue.vim
 
 """ Init
